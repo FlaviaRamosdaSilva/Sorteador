@@ -12,11 +12,13 @@
 </head>
 <body>
     <img src="./assets/sort 1.png" alt="Dado-vermelho">
-    <h2>Sortear um número</h2>
+    <h1 class="result"> </h1>
+    <h2 class="text-add">Sortear um número</h2>
     <div>
-        <input class="input-min" placeholder="entre">
-        <input class="input-max" placeholder="e">
+        <input class="input-min" placeholder="entre" type="number">
+        <input class="input-max" placeholder="e" type="number">
     </div>
-    <button onclick="generateNumber()">Sortear</button>
+    <button class="drawer" onclick="generateNumber()">Sortear</button>
+    <button class="reset" onclick="out()">Resetar</button>
 </body>
 </html>
