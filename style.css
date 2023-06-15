@@ -177,47 +177,49 @@ button:active {
 }
 img {
     position: absolute;
-    width: 58px;
-    height: 37px;
-    left: 72px;
-    top: 15px;
+    width: 583px;
+    height: 374px;
+    left: 80px;
+    top: 156px;
 }
 h2 {
     position: absolute;
-    width: 29px;
-    height: 2px;
-    left: 87px;
-    top: 65px;
+    width: 299px;
+    height: 20px;
+    left: 200px;
+    top: 656px;
 }
 .input-min {
     position: absolute;
-    width: 34px;
-    height: 7px;
-    left: 64px;
+    width: 242px;
+    height: 74px;
+    left: 80px;
 }
-
 .input-max {
     position: absolute;
-    width: 34px;
-    height: 7px;
-    left: 105px;
- }
- .drawer {
-    position: absolute;
-    width: 34px;
-    height: 7px;
-    left: 65px;
-    top: 85px;
+    width: 242px;
+    height: 74px;
+    left: 388px;
 }
-div {
-    display: inline-block;
+.drawer {
     position: absolute;
-    width: 34px;
-    height: 7px;
-    top: 70px;
+    width: 242px;
+    height: 72px;
+    left: 80px;
+    top: 858px;
 }
-::placeholder {
-    font-size: 15px;
-    line-height: 47px;
+.reset {
+    position: absolute;
+    width: 242px;
+    height: 72px;
+    left: 388px;
+    top: 858px;
+}
+.result {
+    position: absolute;
+    width: 400px;
+    height: 20px;
+    left: 200px;
+    top: 600px;
 }
 }
